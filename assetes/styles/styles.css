@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-/*:root {
-    --main(max-width: ;)
-}*/
-
 body {
   font-family: "mona sans", sans-serif;
   font-size: medium;
@@ -36,7 +32,7 @@ main {
 }
 
 button {
-  margin-left: 10px;
+  margin: 0 10px;
   border-radius: 9px;
   width: 81px;
 }
@@ -212,6 +208,18 @@ footer {
     }
   }
 
+  footer {
+    background-color: black;
+    color: #ff9142;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    h1 {
+      text-align: center;
+    }
+  }
+
   .herotext {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -267,18 +275,6 @@ footer {
     grid-template-columns: 30% 30% 30% 30%;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-
-  footer {
-    background-color: black;
-    color: #ff9142;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-
-    h1 {
-      text-align: center;
-    }
   }
 
   .address {
