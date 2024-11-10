@@ -187,7 +187,6 @@ header {
       padding: 1px;
       align-items: end;
       justify-content: space-between;
-      /* margin-left: 200px; */
       border-radius: 5px;
       width: 6%;
       margin-right: 200px;
@@ -207,10 +206,12 @@ header {
       width: 70%;
     }
   }
+
   .sec-one {
     display: flex;
     justify-content: space-evenly;
   }
+
   .pany {
     text-align: center;
 
@@ -218,14 +219,15 @@ header {
       color: #ff9142;
     }
   }
+
   .mi {
     text-align: center;
   }
+
   .sec-2 {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
-    
   }
   .picone {
     text-align: center;
@@ -237,32 +239,30 @@ header {
     align-content: space-around;
   }
 
- .roy{
-  margin-top: 5%;
-  margin-bottom: 3%;
-  margin-left: 50%;
- }
- .work {
-  text-align: center;
-  margin-bottom: 5%;
- }
-
- .impact{
-  display: flex;
-  justify-content: space-evenly;
- }
-
- .footer {
-  display: flex;
-  flex-direction: column;
- }
-
- .last {
-
-  img{
-    width: 130px;
-    justify-content: space-around;
-
+  .roy {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 50%;
   }
- }
+  .work {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .impact {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .last {
+    img {
+      width: 130px;
+      justify-content: space-around;
+    }
+  }
 }
