@@ -229,11 +229,12 @@ header {
     grid-template-columns: 50% 50%;
     gap: 20px;
   }
-  
+
   .picone {
     text-align: center;
     align-content: space-around;
   }
+
   .pics {
     background-color: white;
     text-align: center;
