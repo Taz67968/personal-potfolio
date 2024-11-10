@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 
 /*:root {
@@ -13,6 +14,8 @@ body {
   font-size: medium;
   width: fit-content;
   background-color: gainsboro;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav {
@@ -28,6 +31,8 @@ header {
 
 main {
   margin-left: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 button {
@@ -67,6 +72,7 @@ button {
   margin-bottom: 10px;
   text-align: center;
   gap: 10px;
+  align-content: space-around;
 
   h5 {
     color: #ff9142;
@@ -88,6 +94,7 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: white;
+  align-content: space-around;
 
   img {
     width: 50%;
@@ -118,6 +125,7 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: white;
+  align-content: space-around;
 
   p {
     font-size: small;
@@ -132,6 +140,7 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: white;
+  align-content: space-around;
 
   img {
     width: 50%;
@@ -142,6 +151,7 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: white;
+  align-content: space-around;
 
   img {
     width: 50%;
@@ -152,6 +162,7 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: white;
+  align-content: space-around;
 
   img {
     width: 30%;
@@ -173,6 +184,13 @@ footer {
 }
 
 @media (min-width: 760px) {
+  body {
+    font-family: "mona sans", sans-serif;
+    font-size: medium;
+    width: 98%;
+    background-color: gainsboro;
+  }
+
   header {
     display: flex;
     flex-direction: row;
@@ -181,6 +199,7 @@ footer {
       display: flex;
       justify-content: space-evenly;
       width: 100%;
+
       a {
         justify-content: space-between;
       }
@@ -254,6 +273,8 @@ footer {
     background-color: black;
     color: #ff9142;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 
     h1 {
       text-align: center;
