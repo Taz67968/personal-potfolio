@@ -1,8 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
+body {
   overflow-wrap: normal;
   background-color: gainsboro;
   font-family: "Mona Sans", sans-serif;
@@ -13,143 +13,159 @@ body{
 }
 
 nav {
-    display: none;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 4rem;
-    gap: 2rem;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  gap: 2rem;
 }
 .mbam {
-    width: 300px;
+  width: 300px;
 }
 
 header {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
+
+  button{
+    color: #000000;
+    padding: 1px;
+    align-items: end;
+    justify-content: space-between;
+    margin-left: 200px;
+    border-radius: 5px;
+    width: 81%;
+    background-color: white;
+  }
 }
 
-.logo{
-    display: flex;
-    text-align: start;
-    margin-bottom: 10px;
+.logo {
+  display: flex;
+  text-align: start;
+  margin-bottom: 10px;
 }
 
 .head {
-    justify-content: start;
+  justify-content: start;
+  text-align: start;
+  gap: 2rem;
+
+  h1 {
+    margin-bottom: 1rem;
     text-align: start;
-    gap: 2rem;
-
-    h1{
-        margin-bottom: 1rem;
-        text-align: start;
-        margin-left: 20px;
-    }
-    h2{
-        margin-bottom: 1rem;
-        margin-left: 20px;
-    }
-    h2{
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
+    margin-left: 20px;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    margin-left: 20px;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
 }
+
 .pany {
-    margin-top: 2rem;
-    text-align: 20px;
-    margin-left: 20px;
+  margin-top: 2rem;
+  text-align: 20px;
+  margin-left: 20px;
 
-    button{
-        padding: 5px;
-        color: #ff9142;
-    }
-}
-.box-1{
-    margin-bottom: 4rem;
-    margin-top: 2rem;
-    justify-content: center;
-    text-align: 20px;
-    margin-left: 6px;
-}
-.box-2 {
-    margin-bottom: 4rem;
-    margin-top: 2rem;
-    justify-content: center;
-    text-align: 20px;
-    margin-left: 6px;
-    margin-right: 10px;
-}
-.sec-2{
-    h1{
-        text-align: 20px;
-        margin-left: 2px;
-        justify-content: start;
-        margin-bottom: 3px;
-        margin-left: 20px;
-        margin-right: 10px;
-    }
-    button{
-        margin-top: 2px;
-        margin-bottom: 2px;
-        background-color: black;
-        color: #ff9142;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 20px;
-        margin-right: 10px;
-        margin-bottom: 6px;
-        padding: 5px;
-    }
-}
-.sec-2{
-    justify-content: start;
-    text-align: 30px;
-}
-.images img{
-    width: 90%;
-}
-.roy {
+  button {
+    padding: 5px;
     color: #ff9142;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-left: 11px;
-    margin-right: 10px;
-    margin-bottom: 4rem;
+  }
+}
 
+.box-1 {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  justify-content: center;
+  text-align: 20px;
+  margin-left: 6px;
 }
-.work{
-    margin-left: 10px;
+
+.box-2 {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  justify-content: center;
+  text-align: 20px;
+  margin-left: 6px;
+  margin-right: 10px;
 }
-.sec-4{
-    text-align:20px;
+
+.sec-2 {
+  h1 {
+    text-align: 20px;
+    margin-left: 2px;
     justify-content: start;
+    margin-bottom: 3px;
     margin-left: 20px;
-    width: 100%;
-
-}
-.footer{
+    margin-right: 10px;
+  }
+  button {
+    margin-top: 2px;
+    margin-bottom: 2px;
     background-color: black;
     color: #ff9142;
-    h2{
-        margin-left: 3px;
-    }
-
-}
-.roy{
-    margin-top: 30px;
-}
-.home{
-    display: block;
-    flex-direction: row;
-    gap: 2rem;
-    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     margin-left: 20px;
-    margin-bottom: 3rem;
-    line-height: 30px;
-    }
-    .pen{
-        width: 20%;
-    }
+    margin-right: 10px;
+    margin-bottom: 6px;
+    padding: 5px;
+  }
+}
+.sec-2 {
+  justify-content: start;
+  text-align: 30px;
+}
+.images img {
+  width: 90%;
+}
+.roy {
+  color: #ff9142;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 11px;
+  margin-right: 10px;
+  margin-bottom: 4rem;
+}
+.work {
+  margin-left: 10px;
+}
+.sec-4 {
+  text-align: 20px;
+  justify-content: start;
+  margin-left: 20px;
+  width: 100%;
+}
 
-@media (min-width: 1250px) 
+.footer {
+  background-color: black;
+  color: #ff9142;
+  h2 {
+    margin-left: 3px;
+  }
+}
+
+.roy {
+  margin-top: 30px;
+}
+
+.home {
+  display: block;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-left: 20px;
+  margin-bottom: 3rem;
+  line-height: 30px;
+}
+
+.pen {
+  width: 20%;
+}
+
+/* @media (min-width: 1250px)  */
